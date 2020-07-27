@@ -1,0 +1,370 @@
+.box{ 
+    
+	position: absolute;
+	width: 1300px;
+	height: 900px;
+	left: 79px;
+	top: 71px;
+
+	background: #F4F6F9;
+	box-shadow: 5px 7px 40px rgba(0, 0, 0, 0.2);
+	border-radius: 50px;
+}
+   
+.box1{ 
+	
+	position: absolute;
+    background: red; 
+
+	height: 900px; 
+	width: 120px; 
+
+	border-radius:50px 0 0 50px;
+
+	left: 0%;
+	top: 0%;
+}	
+   
+.earth{
+	flex:1;
+	/* 007-earth 1 */
+	position: relative;
+	height: 65px; 
+	width: 65px;
+	left: 2.30%;
+	right: 10.38%;
+	top: 5.33%;
+	bottom: 85.22%;
+	opacity:0.75;
+}
+
+.earth:hover{
+	
+	/* 007-earth 1 */
+	position: relative;
+	left: 2.30%;
+	right: 10.38%;
+	top: 5.33%;
+	bottom: 85.22%;
+	opacity:1;
+	cursor:pointer;
+}
+   
+   
+
+.racket025{
+	flex:1;
+	position: relative;
+	height: 65px; 
+	width: 65px;
+	left: 2.54%;
+	right: 20.53%;
+	top: 28.67%;
+	bottom: 68.11%;
+	opacity:0.75;
+	cursor:pointer;
+}
+
+.racket025:hover{
+	position: relative;
+	left: 2.54%;
+	right: 20.53%;
+	top: 28.67%;
+	bottom: 68.11%;
+	opacity:1;
+	cursor:pointer;
+}
+
+.austroman{
+	flex:1;
+	position: relative;
+	height: 65px; 
+	width: 65px;
+	left: 2.67%;
+	right: 21.37%;
+	top: 28.33%;
+	bottom: 55.44%;
+	opacity:0.75;
+	cursor:pointer;
+}
+
+.austroman:hover{
+	
+	position: relative;
+	left: 2.67%;
+	right: 21.37%;
+	top: 28.33%;
+	bottom: 55.44%;
+	opacity:1;
+	cursor:pointer;
+}
+
+.therm{
+	flex:1;
+	position: relative;
+	height: 65px; 
+	width: 65px;
+	left: 2.67%;
+	right: 21.37%;
+	top: 37%;
+	bottom: 42.78%;	
+	opacity:0.75;
+	cursor:pointer;
+}
+
+.therm:hover{
+	
+	position: relative;
+	left: 2.67%;
+	right: 21.37%;
+	top: 37%;
+	bottom: 42.78%;	
+	opacity:1;
+	cursor:pointer;
+}
+
+
+.status{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	width: 560px;
+	height: 172px;
+	left: 161px;
+	top: 48px;
+	background: #FFFFFF;
+	border-radius: 10px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.stcont1{
+	position: relative;
+	flex:1;
+}
+
+.stcont2{
+	
+	position: relative;
+	flex:2;
+}
+
+.statustxt{
+	position: relative;
+	left: 4.29%;
+	right: 85.36%;
+	top: 35.21%;
+	bottom: 75.58%;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+/* identical to box height */
+
+
+	color: #000000;
+}
+
+.knock{
+	
+	position: absolute;
+	width:150px;
+	height:30px;
+	left: 70%;
+	right: 0%;
+	top: 20%;
+	bottom: 0%;
+	
+	background: #E4E4E4;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+.knocktxt{
+	
+	position: relative;
+	left: 30.6%;
+	right: 7.61%;
+	top: 20.23%;
+	bottom: 27.69%;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	
+	color: #999999;
+}
+
+.line{
+	
+	position: relative;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 66.28%;
+
+	border: 1px solid #D8DCE3;
+}
+
+.contstatus{
+	position: absolute;
+	left: 4.29%;
+	right: 63.75%;
+	top: 38.95%;
+	bottom: 11.63%;
+}
+
+.statracket{
+	
+	position: relative;
+	left: 8.39%;
+	right: 66.25%;
+	top: 45.95%;
+	bottom: 45.35%;
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+/* identical to box height */
+
+
+	color: #000000;
+}
+
+
+.statteam{
+	position: relative;
+	left: 8.39%;
+	right: 63.75%;
+	top: 55.81%;
+	bottom: 28.49%;
+	
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+	/* identical to box height */
+
+
+	color: #000000;
+}
+
+.statweather2{
+	position: relative;
+	left: 8.39%;
+	right: 73.04%;
+	top: 72.67%;
+	bottom: 11.63%;
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+/* identical to box height */
+	color: #000000;
+}
+
+.ellipsgreen{
+	position: absolute;
+	left: 4.29%;
+	right: 93.21%;
+	top: 53.74%;
+	bottom: 15.12%;
+}
+
+.ellipsgred1{
+	position: absolute;
+	left: 4.29%;
+	right: 93.21%;
+	top: 7.02%;
+	bottom: 48.84%;
+}
+
+.ellipsgred2{
+	position: absolute;
+	left: 4.29%;
+	right: 93.21%;
+	top: 30.88%;
+	bottom: 31.98%;
+}
+
+.weatherstat{
+position: absolute;
+width: 560px;
+height: 260px;
+left: 161px;
+top: 266px;
+
+background: #FFFFFF;
+border-radius: 10px;
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.weatherstattxt{
+	
+	position: absolute;
+	left: 4.29%;
+	right: 6.25%;
+	top: 8.08%;
+	bottom: 83.85%;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 21px;
+	/* identical to box height */
+
+
+	color: #000000;
+}
+
+
+.lineweath{
+	
+	position: relative;
+	left: 0%;
+	right: 0%;
+	top: 22.31%;
+	bottom: 77.69%;
+
+	border: 1px solid #D8DCE3;
+}
+
+.groupweath{
+	position: absolute;
+	left: 5.04%;
+	right: 4.78%;
+	top: 31.15%;
+	bottom: 16.54%;
+
+	
+}
+.location{
+	
+	position: relative;
+left: 6.79%;
+right: 63.57%;
+top: 32.69%;
+bottom: 59.23%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #0A5499;
+}
