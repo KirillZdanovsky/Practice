@@ -1,0 +1,122 @@
+.infoBlock{
+background: #FFFFFF;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+min-width: max-content;
+margin: 0px 0px 30px 0px;
+max-width: 520px;
+}
+
+/*name of info block*/
+.blockName{
+flex: 1;
+font-weight: bold;
+align-self: center;
+}
+
+
+.infoBlock.wide{
+width:500px;
+height:203px;
+margin-bottom: 50px;
+}
+
+.infoBlockContent{
+padding: 10px 25px 15px 20px;
+min-width: max-content;
+margin-block-start: 10px;
+margin-block-end: 10px;
+display: flex;
+flex-direction: row;	
+}
+
+.infoBlockContent ul{
+padding-inline-start:0px;
+margin-block-start: 0px;
+margin-block-end: 0px;
+width: 100%;
+}
+
+.infoBlockContent li{
+list-style-type: none; /* Прячем исходные маркеры */
+display: flex;
+border-bottom-color: #D8DCE3;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+padding: 7px;
+list-style-type: none; /* Убираем маркеры */
+min-width: max-content;
+    align-items: center;
+}
+
+
+/* property name*/
+
+.property :first-child{
+color: #0A5499;
+font-weight: bold;
+width: 166px;
+}
+
+.team .property :first-child{
+	font-weight: bold;
+}
+/*remove border of last line*/
+.infoBlockContent ul>:last-child{
+border: none;
+}
+/* line in status block (with lightCircle)*/
+
+.teams.cards ul>:last-child{
+border-bottom-color: #D8DCE3;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+}
+#status{
+font-size: 18px;
+line-height: 27px;
+
+}
+#status .infoBlockContent 
+{
+margin-block-start: 0px;
+margin-block-end: 0px;	
+}
+
+/* line in status block (with lightCircle)*/
+#status .infoBlockContent li{
+display: flex;
+border: none;
+padding: 0px;
+align-items: center;
+}
+
+/*set width for lightCircle*/
+#status .infoBlockContent li :first-child{
+width: 11px;
+min-width: auto;
+margin: 0px 5px 0px 0px;
+padding: 0px;
+}
+
+
+.current li{
+border: none;
+}
+
+.chosenRocketAndTeam{
+display: grid;
+grid-template-columns: 50% 50%;
+justify-items: center;
+}
+
+.choose{
+background: #D1E1FA;
+height: 38px;
+border-radius: 0px 00px 10px 10px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}

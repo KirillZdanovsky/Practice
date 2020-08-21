@@ -1,0 +1,31 @@
+/* radio */
+.radioRocketChoice {
+	margin: 0px;
+	opacity: 0;
+	width: 0px;
+}
+.radioRocketChoice+label{
+	position: relative;
+	cursor: pointer;
+}
+.radioRocketChoice + label:before {
+	content: '';
+	position: absolute;
+	left: -26px;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #FFFFFF;
+	border-radius: 9px;
+}
+
+.radioRocketChoice:checked + label:before {
+	opacity: 1;
+	border-color: #FFFFFF;
+	background-color: #73E24D;
+}
+
+.radioRocketChoice:not(:checked) + label:before {
+	opacity: 1;
+	border-color: #000000;
+	background-color: #FFFFFF;
+}

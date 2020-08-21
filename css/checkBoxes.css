@@ -1,0 +1,25 @@
+.customInput {
+	visibility: hidden;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.customCheckbox {
+
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+   border: 1px solid #000000;
+}
+
+.customInput:checked + .customCheckbox{
+
+    background-image: url(checkMark.svg);
+}	

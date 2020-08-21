@@ -1,0 +1,30 @@
+
+.illustrations{
+justify-content: space-between;
+display: flex;
+flex-direction: column;
+flex: 1;
+}
+.spaceSVG{
+height: 100%;
+}
+.bigRocketSVG{
+transform: rotate(-45deg);
+height: 100%;
+}
+.r0 {
+margin: -100px -50px auto auto;
+height: 50%
+}
+.r1 {
+	position: relative;
+margin: auto auto 0px auto;
+height: 35%;
+transition: transform 4s ease;
+top:0;
+}
+
+.animated{
+    transform: translate(0px, -3000px);
+}
+

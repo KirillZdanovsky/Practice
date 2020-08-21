@@ -1,0 +1,255 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width" charset="utf-8">
+		<title>Home</title>
+		<link href = "css/main.css" rel = "stylesheet" type = "text/css">
+		<link href = "css/menu.css" rel = "stylesheet" type = "text/css">
+		<link href = "css/rocket.css" rel = "stylesheet" type = "text/css">
+		<link href = "css/weather.css" rel = "stylesheet" type = "text/css">
+		<link href = "css/button.css" rel = "stylesheet" type = "text/css">
+		<link href = "css/home.css" rel = "stylesheet" type = "text/css">
+		<link href = "css/infoBlock.css" rel = "stylesheet" type = "text/css">
+		<link href = "css/pages.css" rel = "stylesheet" type = "text/css">
+		<link href = "css/team.css" rel = "stylesheet" type = "text/css">
+		<link href = "css/checkBoxes.css" rel = "stylesheet" type = "text/css">
+		<link href = "css/statusIndicators.css" rel = "stylesheet" type = "text/css">
+		<link href = "css/radios.css" rel = "stylesheet" type = "text/css">
+		<script src="js/home.js">
+		</script>
+		<script src="js/rocket.js">
+		</script>
+		<script src="js/teamMember.js">
+		</script>
+		<script src="js/team.js">
+		</script>
+		<script src="js/weather.js">
+		</script>
+	</head>
+	<body>
+		<object class="background" type="image/svg+xml" data="svg/background.svg">
+		 
+		</object>
+		<div class="main-panel">
+			<nav>
+				<img class="menuItem inactive" id="Main1" src="svg/Main1.svg">
+				<img class="menuItem inactive" src="svg/Main2.svg">
+				<img class="menuItem inactive" src="svg/Main3.svg">
+				<img class="menuItem inactive" src="svg/Main4.svg">
+			</nav>
+			<main>
+				<section class="page" id="home">
+					<section class="mainInfo">
+						<section class="infoBlock" id="status">
+						<div class="headLine">
+							<div class="blockName">Статус</div>
+							<div class="button disabled" id="go"><a>Поехали!</a></div>
+						</div>
+						<div class="infoBlockContent">
+							<ul>
+								<li class="statusIndicator">
+									Ракета выбрана
+								</li>
+								<li class="statusIndicator">
+									Команда собрана
+								</li>
+								<li class="statusIndicator">
+									Погода - ок
+								</li>
+							</ul>
+						</div>
+						</section>
+						<section class="infoBlock weather">
+							<div class="headLine">
+								<div class="blockName">Погодные условия</div>
+							</div>
+								
+							<div class="infoBlockContent">
+								<ul>
+									<li class="property">
+										<div>Локация</div>
+										<div class="location"></div>
+									</li>
+									<li class="property">
+										<div>Температура</div>
+										<div class="temperature"></div>
+									</li>
+									<li class="property">
+										<div>Влажность</div>
+										<div class="humidity"></div>
+									</li>
+									<li class="property">
+										<div>Ветер</div>
+										<div class="wind"></div>
+									</li>	
+								</ul>
+							</div>
+						</section>
+						<section class="infoBlock team">
+							<div class="headLine">
+								<div class="blockName">Экипаж</div>
+							</div>
+							<div class="infoBlockContent">
+								<ul>
+									<li class="property">
+										<div class="captain">Капитан</div>
+										<div></div>
+									</li>
+									<li class="property">
+										<div class="engineer">Борт инженер</div>
+										<div></div>
+									</li>
+									<li class="property">
+										<div class="doctor">Врач</div>
+										<div></div>
+									</li>
+									<li class="property">
+										<div class="spaceMarine">Космодесантник</div>
+										<div></div>
+									</li>	
+								</ul>
+							</div>
+						</section>
+					</section>
+					<div class ="illustrations">
+						<div class="r0">
+							<object class="spaceSVG" type="image/svg+xml" data="svg/space.svg">
+							 
+							</object>
+						</div>
+						<div class="r1">
+							<img class="bigRocketSVG" src="">
+
+						</div>
+					</div>
+				</section>
+				<section class="page" id="rocketChoice">
+					<div class="pageTitle">Выбор корабля</div>
+					<section class="infoBlock wide current">
+						<div class="headLine">
+							<div class="blockName">Корабль</div>
+							<div class="button disabled"><a>Собрать ракету</a></div>
+						</div>
+						<div> </div>
+					</section>
+					<section class="cards" id="rocketCards">
+
+					</section>
+				</section>
+				
+				<section class="page" id="teamChoice">
+					<div class="pageTitle">Сбор команды</div>
+					<section class="chosenRocketAndTeam">
+						<section class="infoBlock wide">
+							<div class="headLine">
+								<div class="blockName">Команда</div>
+								<div class="button disabled"><a>Готово</a></div>
+							</div>
+							<div class="team current infoBlockContent">
+								<ul>
+									<li class="property">
+										<div class="captain">Капитан</div>
+										<ul>
+										</ul>
+									</li>
+									<li class="property">
+										<div class="engineer">Борт инженер</div>
+										<ul>
+										</ul>
+									</li>
+									<li class="property">
+										<div class="doctor">Врач</div>
+										<ul>
+										</ul>
+									</li>
+									<li class="property">
+										<div class="spaceMarine">Космодесантник</div>
+										<ul>
+										</ul>
+									</li>	
+								</ul>
+							</div>
+						</section>
+						<section class="rocket current infoBlock wide">
+							<div class="headLine">
+								<div class="blockName">Корабль</div>
+							</div>
+							<div></div>
+							
+						</section>
+					</section>
+					<section class="teams cards">
+						<section class="infoBlock wide captain">
+							<div class="headLine">
+								<div class="blockName captain">Капитан</div>
+							</div>
+							<div class="infoBlockContent">
+								<ul>
+								</ul>
+							</div>
+						</section>
+						<section class="infoBlock wide engineer">
+							<div class="headLine">
+								<div class="blockName engineer">Борт инженер</div>
+							</div>
+							<div class="infoBlockContent">
+								<ul>
+								</ul>
+							</div>
+						</section>
+						<section class="infoBlock wide doctor">
+							<div class="headLine">
+								<div class="blockName doctor">Врач</div>
+							</div>
+							<div class="infoBlockContent">
+								<ul>	
+								</ul>
+							</div>
+						</section>
+						<section class="infoBlock wide spaceMarine">
+							<div class="headLine">
+								<div class="blockName spaceMarine">Космодесантник</div>
+							</div>
+							<div class="infoBlockContent">
+								<ul>	
+								</ul>
+							</div>
+						</section>
+					</section>
+				</section>
+				
+				<section class="page" id="weatherCheck">
+					<div class="pageTitle">Проверка погодных условий</div>
+					<section class="mainInfo">
+						<section class="infoBlock weather">
+							<div class="headLine">
+								<div class="blockName">Погодные условия</div>
+								<div class="button disabled"><a>Проверить</a></div>
+							</div>
+							<div class="infoBlockContent">
+								<ul>
+									<li class="property">
+										<div>Локация</div>
+											<input type="text" placeholder="Локация..">
+									</li>
+									<li class="property">
+										<div>Температура</div>
+										<div class="temperature"></div>
+									</li>
+									<li class="property">
+										<div>Влажность</div>
+										<div class="humidity"></div>
+									</li>
+									<li class="property">
+										<div>Ветер</div>
+										<div class="wind"></div>
+									</li>	
+								</ul>
+							</div>
+						</section>
+					</section>
+				</section>
+			</main>
+		</div>
+	</body>
+</html>

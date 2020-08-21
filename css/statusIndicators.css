@@ -1,0 +1,14 @@
+.statusIndicator:before {
+    color: #FF7D84; /* Цвет маркера */
+    content: "\1F534"; /* Сам маркер */
+    padding-right: 5px; /* Расстояние от маркера до текста */
+}
+
+.statusIndicator.checked:before {
+    color: #73E24D; /* Цвет маркера */
+}
+
+input[type="statusIndicator"]{
+height:16px;
+width:16px;
+}	

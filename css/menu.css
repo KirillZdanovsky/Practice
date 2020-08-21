@@ -1,0 +1,33 @@
+nav {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+width: 118px;
+background: #FF5800;
+border-radius: 38px 0px 0px 38px;
+}
+
+/*menu items*/
+.menuItem{
+width: 65px;
+height: 65px;
+margin: 20px auto 20px auto;
+	opacity: 0.75;
+}
+
+.menuItem.inactive:hover{
+	opacity: 1;
+}
+
+.menuItem.active{
+	opacity: 1;
+}
+.menuItem.inactive{
+	opacity:0.75;
+}
+
+#earth{
+width: 85px;
+height: 85px;
+}
