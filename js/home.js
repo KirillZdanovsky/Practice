@@ -130,5 +130,5 @@ function disableButton(button1){
 }
 
 function buttonClick(button1, event1){
-	if (button1.classList[1]=='enabled') return event1();
+	if (button1.classList[1]==='enabled') return event1();
 }

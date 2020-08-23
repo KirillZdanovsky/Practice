@@ -53,7 +53,7 @@ function setPersonChoiceEvents(){
 /* deletes member from chosen team */
 function deleteFromTeamChosen(personID){
 	for (let memChosen of teamChosen){
-		if (personID == memChosen.id)
+		if (personID === memChosen.id)
 			teamChosen.delete(memChosen);
 	}
 }
@@ -73,7 +73,7 @@ function chooseMember(checkbox){
 		deleteFromTeamChosen(personID);
 		//console.log('member deleted');
 	}
-	if (teamNumberChosen==teamNumberNeeded){
+	if (teamNumberChosen===teamNumberNeeded){
 		enableButton(teamButton);
 	}
 	else disableButton(teamButton);
