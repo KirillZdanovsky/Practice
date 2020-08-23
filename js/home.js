@@ -42,7 +42,7 @@ let weatherProperties;
 let locationInput;
 let locationPlace;
 let weather;
-let apiKey='2e70debd3cd7bd2dae173bf727359e9b';
+let apiKey='27d68cb21ee3b5093c00da1a66e73421';
 let weatherButton;
 
 /* sets menu evemts */

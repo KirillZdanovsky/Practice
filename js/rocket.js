@@ -46,9 +46,9 @@ function stringRocket(rocket){
 /* adds events for rocket choice radios */
 function setRocketEvents(){
 	rockets = [];
-	rockets.push(new Rocket("Сокол", "12 km/s", 2, "svg/Main2.svg"));
-	rockets.push(new Rocket("Астра", "6 km/s", 3, "svg/rocket1.svg"));
-	rockets.push(new Rocket("Маргарита", "3 km/s", 4, "svg/alienShip.svg"));
+	rockets.push(new Rocket("Astra", "12 km/s", 2, "svg/alienShip.svg"));
+	rockets.push(new Rocket("Margarita", "6 km/s", 3, "svg/rocket1.svg"));
+	rockets.push(new Rocket("Pion", "3 km/s", 4, "svg/rocket2.svg"));
 	
 	teamChooseRocketBlock =  document.querySelector('.chosenRocketAndTeam .rocket>:nth-child(2)');
 	rocketCards = document.querySelector("#rocketCards");

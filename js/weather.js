@@ -51,7 +51,7 @@ async function getWeather(){
 	else{
 		locationPlace=prevLocation;
 		locationInput.value=prevLocation;
-		alert("Такого города нет!");
+		alert("Локация не найдена!");
 	}
 }
 
