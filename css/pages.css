@@ -3,6 +3,12 @@ min-width: max-content;
 min-height: max-content;
 display: flex;
 flex-direction: column; 
+  margin-left: 2px;
+    margin-right: 2px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
 }
 
 /*block itself*/
@@ -16,5 +22,11 @@ padding: 15px 20px 10px 20px;
 border-bottom-color: #D8DCE3;
 border-bottom-width: 1px;
 border-bottom-style: solid;
+  margin-left: 2px;
+    margin-right: 2px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;s
 }
 
